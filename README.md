@@ -6,6 +6,10 @@
 
 [Node Quickstart guide](https://developer.squareup.com/docs/sdks/nodejs/quick-start) - The quickstart directory is based off of this document.
 
+[NPM repository for Square](https://www.npmjs.com/package/square) - Where the package files are hosted
+
+[Python SDK Source Code](https://github.com/square/square-nodejs-sdk) - Github repo with sdk source code
+
 ## Quickstart instructions
 
 Change into the `quickstart` directory
@@ -15,9 +19,9 @@ copy `.env.example` to `.env` and replace with your access token
 SQUARE_ACCESS_TOKEN=yourSandboxAccessToken
 ```
 
-Install node packages
+Install latest version of the square SDK
 ```
-$ npm install
+$ npm install square
 ```
 
 Run the code
@@ -25,4 +29,7 @@ Run the code
 $ npm run start
 ```
 
-You should see your `Square Sandbox Seller account's` location logged in the console.
+You should see output similar to this in your console
+```
+LHJ3ZXJ9RSV8X: Default Test Account, 1600 Pennsylvania Ave NW, Washington
+```
